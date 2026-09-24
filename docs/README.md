@@ -22,3 +22,11 @@ Your best scores are saved in your browser's `localStorage`.
 
 To run it, open `index.html` in any modern browser. There's no build step and
 nothing to install.
+
+## Publishing
+
+This folder is set up for GitHub Pages. In the repository's **Settings → Pages**,
+choose **Deploy from a branch**, pick the branch that holds this folder, and set
+the folder to `/docs`. The site will then be served at
+https://muslimarabbaev638-ctrl.github.io/handson-mlp/. The empty `.nojekyll` file
+tells Pages to serve the files exactly as they are, without Jekyll processing.
